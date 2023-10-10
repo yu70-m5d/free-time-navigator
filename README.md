@@ -2,7 +2,11 @@
 
 ### [画面遷移図](https://www.figma.com/file/n0ZRoCEkUWNxR26it2SO1l/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=S7d836lFTDsDbiy3-1)
 
-### [ER図](https://drive.google.com/file/d/1sL5jKD6LwQu95wq17XnB2Fd7OVhyeP75/view?usp=sharing)
+
+## ER図
+
+![ER_diagram drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/5a96749c-adc6-47ec-a6e9-5bc9036ff1f0)
+
 
 ## サービス概要
 空き時間に応じた行ける場所を提案することで、 <br>
