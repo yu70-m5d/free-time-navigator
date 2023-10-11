@@ -3,7 +3,7 @@
 ### [画面遷移図](https://www.figma.com/file/n0ZRoCEkUWNxR26it2SO1l/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=S7d836lFTDsDbiy3-1)
 
 ## ER図
-![ER_diagram drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/4591ee8a-56d7-4ff7-a8b5-b79470132fbc)
+![ER_diagram drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/319e3070-78b2-481c-8a9f-3e691060d4fc)
 
 
 ## サービス概要
