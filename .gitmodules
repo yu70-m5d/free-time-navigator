@@ -1,0 +1,6 @@
+[submodule "free-time-navigator-front"]
+	path = free-time-navigator-front
+	url = git@github.com:yu70-m5d/free-time-navigator-front.git
+[submodule "free-time-navigator-api"]
+	path = free-time-navigator-api
+	url = git@github.com:yu70-m5d/free-time-navigator-api.git
