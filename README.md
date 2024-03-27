@@ -1,58 +1,100 @@
 # [Free Time Navigator](https://www.free-time-navigator.com)
+### https://www.free-time-navigator.com
 
-### [画面遷移図](https://www.figma.com/file/n0ZRoCEkUWNxR26it2SO1l/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=S7d836lFTDsDbiy3-1)
+<br>
+
+## サービス概要
+周辺施設を、空き時間やジャンルで検索しルートを表示するサービスです。
+
+<img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/e8e165cf-0977-4061-8b38-c499a766d780"
+    width="320px"
+/>
+
+<br>
+
+## ターゲットユーザー
+- 外出好きの人
+- 性別・年齢問わず
+- 空いた時間に何するかを決めるのが苦手な人
+### ユーザーが抱える課題
+- 予定の前後で余った時間を活用したい
+- マップアプリは目的地が決まっていないと検索しづらい
+### 解決方法
+- 空き時間やジャンルから施設を検索できる
+- 「やりたいこと」をメモしておくことができる
+
+<br>
+
+## 制作背景
+私自身、外出したとき、予定の前後で生まれた空き時間に何をするか悩む機会が多くあります。  
+こういった場合、そもそも目的が決まっていないためマップアプリ等も利用しにくい状況です。  
+そこで、入力した空き時間から利用できる周辺施設を一覧で表示することで、選択肢を可視化し  
+空き時間の活用をサポートするサービスを制作しようと考えました。  
+予定のコントロールがし易いよう、おおよその利用時間の表示や、LINE通知による時間リマインド、    
+外出先での利用を想定しているため、スマートフォンからの操作がし易いUIにするといった工夫をしました。
+
+<br>
+
+## 機能の紹介
+
+| スポット一覧表示 | タグ絞り込み |
+| - | - |
+| <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/f9135ad1-4c58-48ff-8efa-6edf27b1dde8" width="200px" /> | <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/409c7de5-bbfc-4ee8-916d-59372242ea51" width="200px" /> |
+
+|スポット詳細表示 | ルート表示 | LINEリマインド |
+| - | - | - |
+| <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/e1d5ff17-11a5-4ef3-ac99-8758ec1132a6" width="200px" /> | <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/8ed3e312-e2ff-4759-afe6-66fc4fd3354b" width="200px" /> | <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/0cdfd374-4b2c-406f-b279-26cf93e64da1" width="200px" /> |
+
+| タスク一覧・作成・詳細・編集 |
+| - |
+|<img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/1e77ee79-4b06-48db-a243-2bef391cc52e" width="200px" /><img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/77d92678-d21c-4d4f-a04f-1630e35f58d0" width="200px" /><img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/130cbdf9-fff1-49a5-b207-a348856c10b1" width="200px" /><img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/d49dce61-96f2-4b21-ba66-5764e6148b86" width="200px" /> |
+
+| ユーザーページ |
+| - |
+| <img src="https://github.com/yu70-m5d/free-time-navigator/assets/124274307/6b829d1b-25f8-4de5-ba7d-44463738cfdd" width="200px" /> |
+ 
+<br>
+
+## その他の機能
+- お問い合わせ機能
+- ユーザー登録
+- メールログイン・LINEログイン
+- 施設お気に入り登録
+- X（旧Twitter)シェア
+
+<br>
+
+## 画面遷移図
+### [Figma](https://www.figma.com/file/n0ZRoCEkUWNxR26it2SO1l/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?type=design&node-id=0%3A1&mode=design&t=S7d836lFTDsDbiy3-1)
+
+<br>
 
 ## ER図
 ![ER図_FreeTimeNavigator drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/221fda1b-36e3-4ddd-a755-41ee68e8ffa4)
 
+<br>
 
-## サービス概要
-空き時間に応じた行ける場所を提案することで、 <br>
-外出時に何ができるかを考える手助けをする　<br>
-スポット検索サービスです。
+## 使用技術
+### バックエンド
+- Ruby 3.2.2
+- Ruby on Rails(APIモード) 7.0.8
 
-## 想定されるユーザー層
-- 外出好きの人
-- 性別・年齢問わず
-- 空いた時間に何するかを決めるのが苦手な人
+### フロントエンド
+- Next.js 14.0.1
 
-## サービスコンセプト
-外出した際、予定の前後で空いた時間に「何をするか」を決めるのに苦労した経験があるため考案しました。 <br>
-私自身外出が好きなのですが、
-- 予定より早く目的地に着いた
-- 予定を終えたがすぐに帰宅する必要はない
-- 知人を待たなければならない
+### インフラ
+- Render.com
+- Vercel
+- Neon (PostgreSQL)
 
-といった、時間はあるけど予定はないという状況になることが多くあります。 <br>
-その際に周辺施設の情報を検索するにしても、「〇〇駅　カフェ」といったように目的を決めないと検索できなかったりします。 <br>
-結果、毎回カフェでスマートフォンをいじるといったような過ごし方になってしまい勿体無いと感じます。 <br>
+### その他
+- GoogleMapsAPI
+- GoogleDirectionsAPI
+- GooglePlacesAPI
 
-上記の経験から、指定した時間内に移動および利用ができる施設・スポットを表示することで、行動の選択肢を可視化することができ、空き時間を有効に利用できるのではないかと考えました。 <br>
+<br>
 
-差別化ポイントとして、 <br>
-- 施設・スポット検索系サービスは、場所を指定 → 時間を表示する構成に対して、このアプリは時間を指定 → 場所を表示となっている点
-- 「やりたいことリスト」を登録・通知する機能によってリマインダーとしての機能も有する点
-
-上記2点が、差別化・推しポイントとなっています。
-
-## 実装を予定している機能
-### MVP
-- スポット検索機能
-- 絞り込み検索機能
-    - 施設タグの指定
-- スポット一覧表示機能
-- スポット詳細表示機能（ルート表示）
-- 位置情報取得機能
-
-### その後の機能
-- ユーザー登録機能
-- ログイン/ログアウト機能
-- 時間リマインド機能（ライン通知）
-- やりたいことリスト登録
-- スポットお気に入り機能
-- スポットシェア機能（外部SNS）
-
-## 対応エリア（随時追加予定）
+## 対応エリア（随時追加）
 ```
 新宿駅（東京都）
 渋谷駅（東京都）
