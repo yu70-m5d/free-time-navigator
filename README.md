@@ -70,7 +70,8 @@
 <br>
 
 ## ER図
-![ER図_FreeTimeNavigator drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/221fda1b-36e3-4ddd-a755-41ee68e8ffa4)
+![ER図_FreeTimeNavigator drawio](https://github.com/yu70-m5d/free-time-navigator/assets/124274307/ea6e81fe-744c-4344-b2bb-39617a6be3f5)
+
 
 <br>
 
